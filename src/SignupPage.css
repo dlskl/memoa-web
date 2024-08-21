@@ -1,0 +1,145 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 100vh;
+  padding: 0px 104px;
+}
+
+.left-side-signup {
+  height: 100vh;
+  width: 608px;
+  background-color: #6C63FF;
+  color: white;
+  padding: 80px, 120px !important;
+  box-sizing: border-box;
+  /*padding-left: 70px;  왼쪽에 추가적인 여백을 추가 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-side-signup h1 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.highlight {
+  color: #6C63FF;
+  cursor: pointer;
+}
+
+.Sproject-button {
+  background-color: #fff;
+  color: #6C63FF;
+  border: none;
+  margin-left: 30px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  align-self: flex-start;
+}
+
+.right-side {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%; /* 전체 폭을 채우도록 설정 */
+  max-width: 400px; /* 최대 폭 설정 */
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background-color: #6C63FF;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+}
+
+.signup-box h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.signup-box p {
+  margin-bottom: 20px;
+  color: #777;
+}
+
+.email-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-field {
+  flex: 1; /* 이메일 입력란이 남은 공간을 차지하도록 설정 */
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.email-auth-button {
+  background-color: #6C63FF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+.code-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.code-input {
+  width: 40px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-button {
+  background-color: #6C63FF;
+  color: white;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.terms, .login-link {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.terms .highlight, .login-link .highlight {
+  cursor: pointer;
+  color: #6C63FF;
+}
