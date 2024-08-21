@@ -16,6 +16,10 @@ body, html {
 
 .left-side {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px; /* 왼쪽에서 조금 떨어지게 패딩 추가 */
 }
 
 .left-side h1 {
@@ -35,10 +39,11 @@ body, html {
   padding: 15px 30px;
   font-size: 1.2rem;
   border-radius: 5px;
+  align-self: flex-start;
 }
 
 .right-side {
-  width: 35%;
+  width: 40%; /* 오른쪽 공간의 비율을 더 크게 조정 */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,6 +55,8 @@ body, html {
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   text-align: center;
+  width: 100%; /* 전체 폭을 채우도록 설정 */
+  max-width: 400px; /* 최대 폭 설정 */
 }
 
 .avatar {
