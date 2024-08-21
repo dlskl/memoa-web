@@ -1,0 +1,97 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 100px;
+}
+
+.left-side {
+  width: 50%;
+}
+
+.left-side h1 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.highlight {
+  color: #6C63FF;
+}
+
+.project-button {
+  background-color: #6C63FF;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.right-side {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background-color: #6C63FF;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+}
+
+.login-box h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.login-box p {
+  margin-bottom: 20px;
+  color: #777;
+}
+
+.input-field {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+} 
+
+.login-button {
+  background-color: #6C63FF;
+  color: white;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.signup {
+  color: #777;
+  font-size: 0.9rem;
+}
